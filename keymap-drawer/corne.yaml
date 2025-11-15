@@ -1,7 +1,48 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BAS: ['', Q, W, E, R, T, Y, U, I, O, P, '', '', A, S, D, F, G, H, J, K, L, ;, '', '', Z, X, C, V, B, N, M, ',', ., /, '', '$$mdi:apple-keyboard-command$$', LOW,
-    ␣, ⏎, RAI, '$$mdi:apple-keyboard-option$$']
+  BAS:
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - ''
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
+  - G
+  - H
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT GUI}
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''
+  - MSE
+  - LOW
+  - ␣
+  - ⏎
+  - RAI
+  - MSE
   LOW:
   - ''
   - '1'
@@ -14,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - $$mdi:backspace-outline$$
+  - ''
   - ''
   - BT 1
   - BT 2
@@ -26,7 +67,7 @@ layers:
   - ↑
   - →
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - BT CLR
   - {t: ▽, type: trans}
@@ -38,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - $$mdi:apple-keyboard-command$$
   - {type: held}
   - ␣
@@ -46,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   RAI:
-  - ↹
+  - ''
   - '!'
   - '@'
   - '#'
@@ -57,36 +98,36 @@ layers:
   - KP MULTIPLY
   - (
   - )
-  - $$mdi:backspace-outline$$
-  - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '-'
   - '='
   - '['
   - ']'
   - \
-  - '`'
-  - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - _
   - +
   - '{'
   - '}'
   - '|'
-  - '~'
+  - ''
   - $$mdi:apple-keyboard-command$$
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - ␣
   - ⏎
-  - {t: '&studio_unlock', type: held}
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
   MSE:
   - {t: ▽, type: trans}
@@ -125,9 +166,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  '4': ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '']
+combos:
+- p: [22, 21]
+  k: BACKSPACE
+- p: [13, 14]
+  k: ↹
