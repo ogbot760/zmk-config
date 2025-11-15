@@ -37,13 +37,13 @@ layers:
   - .
   - /
   - ''
-  - MSE
-  - LOW
+  - MVT
+  - NUM
   - ␣
   - ⏎
-  - RAI
-  - MSE
-  LOW:
+  - SYM
+  - MVT
+  NUM:
   - ''
   - '1'
   - '2'
@@ -57,19 +57,19 @@ layers:
   - '0'
   - ''
   - ''
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - ←
-  - ↓
-  - ↑
-  - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - ⏎
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
-  RAI:
+  SYM:
   - ''
   - '!'
   - '@'
@@ -129,7 +129,7 @@ layers:
   - ⏎
   - {type: held}
   - $$mdi:apple-keyboard-option$$
-  MSE:
+  MVT:
   - ''
   - ''
   - ''
@@ -172,8 +172,8 @@ layers:
   - ''
   - ''
   - ''
-  '4': ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BT 1, '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '']
+  MSC: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BT 1, BT 2, BT CLR, BT CLR ALL, '&soft_off', '&soft_off',
+    '', '', '', '', '', '', '', '', '', '', '']
 combos:
 - p: [22, 21]
   k: BACKSPACE
