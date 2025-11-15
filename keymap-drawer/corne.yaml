@@ -88,7 +88,7 @@ layers:
   - ⏎
   - {t: '&studio_unlock', type: held}
   - $$mdi:apple-keyboard-option$$
-  Sym:
+  MSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
