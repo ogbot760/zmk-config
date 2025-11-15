@@ -9,6 +9,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &led_strip { chain-length = <27>; };
 
@@ -152,10 +153,10 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &none   &trans  &trans    &trans  &trans  &trans
+&none  &none            &none           &mkp LCLK       &mkp RCLK     &none               &none  &kp HOME      &kp END         &none           &none            &none
+&none  &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &none               &none  &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &none
+&none  &msc SCRL_RIGHT  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &none               &none  &none         &none           &none           &none            &none
+                                        &none           &none         &kp LEFT_CONTROL    &none  &none         &none
             >;
 
             label = "MSE";
@@ -163,10 +164,10 @@
 
         layer_4 {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &none  &none  &none
+&none  &none         &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none         &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &bt BT_SEL 0  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                            &none  &none  &none    &none  &none  &none
             >;
         };
     };
