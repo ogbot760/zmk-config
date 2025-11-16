@@ -218,13 +218,19 @@ layers:
 combos:
 - p: [22, 21]
   k: BACKSPACE
+  l: [BAS]
 - p: [13, 14]
   k: ↹
+  l: [BAS]
 - p: [17, 16]
   k: Home
+  l: [BAS]
 - p: [18, 19]
   k: End
+  l: [BAS]
 - p: [26, 25]
   k: MSC
+  l: [BAS]
 - p: [34, 33]
   k: MSC
+  l: [BAS]

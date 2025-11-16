@@ -585,32 +585,6 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
 </text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="714" y="85" width="28" height="26" class="combo"/>
-<text x="728" y="98" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="85" width="28" height="26" class="combo"/>
-<text x="112" y="98" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
-<text x="280" y="94" class="combo tap">Home</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="546" y="82" width="28" height="26" class="combo"/>
-<text x="560" y="94" class="combo tap">End</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
-<a href="#MSC">
-<text x="112" y="154" class="combo tap layer-activator">MSC</text>
-</a></g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="714" y="141" width="28" height="26" class="combo"/>
-<a href="#MSC">
-<text x="728" y="154" class="combo tap layer-activator">MSC</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(40, 661)" class="layer-NUM">
@@ -759,32 +733,6 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
 </text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="714" y="85" width="28" height="26" class="combo"/>
-<text x="728" y="98" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="85" width="28" height="26" class="combo"/>
-<text x="112" y="98" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
-<text x="280" y="94" class="combo tap">Home</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="546" y="82" width="28" height="26" class="combo"/>
-<text x="560" y="94" class="combo tap">End</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
-<a href="#MSC">
-<text x="112" y="154" class="combo tap layer-activator">MSC</text>
-</a></g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="714" y="141" width="28" height="26" class="combo"/>
-<a href="#MSC">
-<text x="728" y="154" class="combo tap layer-activator">MSC</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(40, 992)" class="layer-MVT">
@@ -968,32 +916,6 @@ rect.held, rect.combo.held {
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="714" y="85" width="28" height="26" class="combo"/>
-<text x="728" y="98" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="85" width="28" height="26" class="combo"/>
-<text x="112" y="98" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
-<text x="280" y="94" class="combo tap">Home</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="546" y="82" width="28" height="26" class="combo"/>
-<text x="560" y="94" class="combo tap">End</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
-<a href="#MSC">
-<text x="112" y="154" class="combo tap layer-activator">MSC</text>
-</a></g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="714" y="141" width="28" height="26" class="combo"/>
-<a href="#MSC">
-<text x="728" y="154" class="combo tap layer-activator">MSC</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(40, 1323)" class="layer-MSC">
@@ -1141,32 +1063,6 @@ rect.held, rect.combo.held {
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="714" y="85" width="28" height="26" class="combo"/>
-<text x="728" y="98" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="85" width="28" height="26" class="combo"/>
-<text x="112" y="98" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
-<text x="280" y="94" class="combo tap">Home</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="546" y="82" width="28" height="26" class="combo"/>
-<text x="560" y="94" class="combo tap">End</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
-<a href="#MSC">
-<text x="112" y="154" class="combo tap layer-activator">MSC</text>
-</a></g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="714" y="141" width="28" height="26" class="combo"/>
-<a href="#MSC">
-<text x="728" y="154" class="combo tap layer-activator">MSC</text>
-</a></g>
 </g>
 </g>
 <text x="880.0" y="1681.0" class="footer">Keymap View: <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a></text></svg>

@@ -89,31 +89,37 @@
         backspace_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <22 21>;
+            layers = <0>;
         };
 
         tab_combo {
             bindings = <&kp TAB>;
             key-positions = <13 14>;
+            layers = <0>;
         };
 
         home_combo {
             bindings = <&kp HOME>;
             key-positions = <17 16>;
+            layers = <0>;
         };
 
         end_combo {
             bindings = <&kp END>;
             key-positions = <18 19>;
+            layers = <0>;
         };
 
         layer_4_left {
             bindings = <&mo 4>;
             key-positions = <26 25>;
+            layers = <0>;
         };
 
         layer_4_right {
             bindings = <&mo 4>;
             key-positions = <34 33>;
+            layers = <0>;
         };
     };
 
