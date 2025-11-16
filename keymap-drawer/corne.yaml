@@ -28,8 +28,8 @@ layers:
   - ''
   - Z
   - X
-  - C
-  - V
+  - {t: C, h: Ctl+C}
+  - {t: V, h: Ctl+V}
   - B
   - N
   - M
@@ -43,49 +43,6 @@ layers:
   - ⏎
   - SYM
   - MVT
-  NUM:
-  - ''
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - $$mdi:apple-keyboard-command$$
-  - {type: held}
-  - ␣
-  - ⏎
-  - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
   SYM:
   - ''
   - '!'
@@ -128,7 +85,50 @@ layers:
   - ␣
   - ⏎
   - {type: held}
-  - $$mdi:apple-keyboard-option$$
+  - RIGHT GUI
+  NUM:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-command$$
+  - {type: held}
+  - ␣
+  - ⏎
+  - {t: ▽, type: trans}
+  - RIGHT GUI
   MVT:
   - ''
   - ''
@@ -167,15 +167,64 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - LEFT CONTROL
+  - RIGHT CONTROL
+  - {t: ▽, type: trans}
+  - ''
+  MSC:
   - ''
   - ''
   - ''
-  MSC: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BT 1, BT 2, BT CLR, BT CLR ALL, '&soft_off', '&soft_off',
-    '', '', '', '', '', '', '', '', '', '', '']
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT 1, type: held}
+  - {t: BT 2, type: held}
+  - BT CLR
+  - BT CLR ALL
+  - '&soft_off'
+  - '&soft_off'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [22, 21]
   k: BACKSPACE
 - p: [13, 14]
   k: ↹
+- p: [17, 16]
+  k: Home
+- p: [18, 19]
+  k: End
+- p: [26, 25]
+  k: MSC
+- p: [34, 33]
+  k: MSC

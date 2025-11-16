@@ -86,14 +86,34 @@
     combos {
         compatible = "zmk,combos";
 
-        Combo {
+        backspace_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <22 21>;
         };
 
-        combo {
+        tab_combo {
             bindings = <&kp TAB>;
             key-positions = <13 14>;
+        };
+
+        home_combo {
+            bindings = <&kp HOME>;
+            key-positions = <17 16>;
+        };
+
+        end_combo {
+            bindings = <&kp END>;
+            key-positions = <18 19>;
+        };
+
+        layer_4_left {
+            bindings = <&mo 4>;
+            key-positions = <26 25>;
+        };
+
+        layer_4_right {
+            bindings = <&mo 4>;
+            key-positions = <34 33>;
         };
     };
 
@@ -110,27 +130,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                 &kp W                     &kp E                         &kp R                        &kp T        &kp Y    &kp U                          &kp I                           &kp O                       &kp P                          &none
-&none  &hrm_mod_left LGUI A  &hrm_mod_left LEFT_ALT S  &hrm_mod_left LEFT_CONTROL D  &hrm_main_left LEFT_SHIFT F  &kp G        &kp H    &hrm_main_right RIGHT_SHIFT J  &hrm_mod_right RIGHT_CONTROL K  &hrm_mod_right RIGHT_ALT L  &hrm_mod_right RIGHT_GUI SEMI  &none
-&none  &kp Z                 &kp X                     &kp C                         &kp V                        &kp B        &kp N    &kp M                          &kp COMMA                       &kp DOT                     &kp FSLH                       &none
-                                                       &mo 3                         &mo 1                        &kp SPACE    &kp RET  &mo 2                          &mo 3
-            >;
-        };
-
-        Number_Layer {
-            display-name = "NUM";
-
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            bindings = <
-&none  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6   &kp N7  &kp N8    &kp N9  &kp N0  &none
-&none  &trans  &trans  &trans    &trans  &trans       &trans   &trans  &trans    &trans  &trans  &none
-&none  &trans  &trans  &trans    &trans  &trans       &trans   &trans  &trans    &trans  &trans  &none
-                       &kp LGUI  &trans  &kp SPACE    &kp RET  &trans  &kp RALT
+&none  &kp Q                 &kp W                     &kp E                         &kp R                         &kp T        &kp Y    &kp U                          &kp I                           &kp O                       &kp P                          &none
+&none  &hrm_mod_left LGUI A  &hrm_mod_left LEFT_ALT S  &hrm_mod_left LEFT_CONTROL D  &hrm_main_left LEFT_SHIFT F   &kp G        &kp H    &hrm_main_right RIGHT_SHIFT J  &hrm_mod_right RIGHT_CONTROL K  &hrm_mod_right RIGHT_ALT L  &hrm_mod_right RIGHT_GUI SEMI  &none
+&none  &kp Z                 &kp X                     &long_press_template LC(C) C  &long_press_template LC(V) V  &kp B        &kp N    &kp M                          &kp COMMA                       &kp DOT                     &kp FSLH                       &none
+                                                       &mo 3                         &mo 2                         &kp SPACE    &kp RET  &mo 1                          &mo 3
             >;
         };
 
@@ -147,16 +150,33 @@
 &none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &none
 &none  &none     &none   &none     &none     &none        &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &none
 &none  &none     &none   &none     &none     &none        &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &none
-                         &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+                         &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RIGHT_GUI
+            >;
+        };
+
+        Number_Layer {
+            display-name = "NUM";
+
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+            //                    | GUI |     | SPC |   | ENT |     | ALT |
+
+            bindings = <
+&none  &none         &none         &none         &none         &none           &none         &none   &none          &none         &none         &none
+&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7  &kp N8         &kp NUMBER_9  &kp NUMBER_0  &none
+&none  &none         &none         &none         &none         &none           &none         &none   &none          &none         &none         &none
+                                   &kp LGUI      &trans        &kp SPACE       &kp RET       &trans  &kp RIGHT_GUI
             >;
         };
 
         Movement_Layer {
             bindings = <
-&none  &none            &none           &mkp LCLK       &mkp RCLK     &none               &none  &kp HOME      &kp END         &none           &none            &none
-&none  &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &none               &none  &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &none
-&none  &msc SCRL_RIGHT  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &none               &none  &none         &none           &none           &none            &none
-                                        &none           &none         &kp LEFT_CONTROL    &none  &none         &none
+&none  &none            &none           &mkp LCLK       &mkp RCLK     &none               &none              &kp HOME      &kp END         &none           &none            &none
+&none  &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &none               &none              &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &none
+&none  &msc SCRL_RIGHT  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &none               &none              &none         &none           &none           &none            &none
+                                        &none           &trans        &kp LEFT_CONTROL    &kp RIGHT_CONTROL  &trans        &none
             >;
 
             label = "MVT";
