@@ -38,7 +38,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <13 0 28 29 38 37 36 27 26 24 25 12 1 2 3 4 5 17 16 15 14>;
@@ -50,7 +50,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <7 6 8 9 10 11 23 22 21 20 19 18 30 31 32 33 34 35 41 40 39>;
@@ -62,7 +62,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <7 6 8 9 10 11 23 22 21 20 19 18 30 31 32 33 34 35 41 40 39>;
@@ -75,7 +75,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <13 0 28 29 38 37 36 27 26 24 25 12 1 2 3 4 5 17 16 15 14>;
