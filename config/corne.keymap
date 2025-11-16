@@ -184,10 +184,10 @@
 
         Misc_Layer {
             bindings = <
-&none  &none         &none         &none       &none           &none        &none      &none  &none  &none  &none  &none
-&none  &none         &none         &none       &none           &none        &none      &none  &none  &none  &none  &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR  &bt BT_CLR_ALL  &soft_off    &soft_off  &none  &none  &none  &none  &none
-                                   &none       &none           &none        &none      &none  &none
+&none  &none         &none         &none       &none           &none        &none      &none   &none  &none  &none  &none
+&none  &none         &none         &none       &none           &none        &none      &none   &none  &none  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR  &bt BT_CLR_ALL  &soft_off    &soft_off  &none   &none  &none  &none  &none
+                                   &none       &trans          &none        &none      &trans  &none
             >;
 
             label = "MSC";
