@@ -62,11 +62,13 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <7 6 8 9 10 11 23 22 21 20 19 18 30 31 32 33 34 35 41 40 39>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
         };
 
         hrm_mod_right: HMRModR {
@@ -75,12 +77,13 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <13 0 28 29 38 37 36 27 26 24 25 12 1 2 3 4 5 17 16 15 14>;
             flavor = "tap-preferred";
-            quick-tap-ms = <(-1)>;
+            quick-tap-ms = <176>;
+            require-prior-idle-ms = <150>;
         };
     };
 
