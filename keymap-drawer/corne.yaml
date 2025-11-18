@@ -222,10 +222,10 @@ combos:
 - p: [13, 14]
   k: Home
   l: [BAS]
-- p: [17, 16]
+- p: [16, 15]
   k: ↹
   l: [BAS]
-- p: [18, 19]
+- p: [19, 20]
   k: BACKSPACE
   l: [BAS]
 - p: [26, 25]
