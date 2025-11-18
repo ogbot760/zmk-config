@@ -80,6 +80,7 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <13 0 28 29 38 37 36 27 26 24 25 12 1 2 3 4 5 17 16 15 14>;
             flavor = "tap-preferred";
+            quick-tap-ms = <(-1)>;
         };
     };
 
@@ -87,39 +88,45 @@
         compatible = "zmk,combos";
 
         backspace_combo {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp END>;
             key-positions = <22 21>;
             layers = <0>;
+            slow-release;
         };
 
         tab_combo {
-            bindings = <&kp TAB>;
+            bindings = <&kp HOME>;
             key-positions = <13 14>;
             layers = <0>;
+            slow-release;
         };
 
         home_combo {
-            bindings = <&kp HOME>;
+            bindings = <&kp TAB>;
             key-positions = <17 16>;
             layers = <0>;
+            slow-release;
         };
 
         end_combo {
-            bindings = <&kp END>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <18 19>;
             layers = <0>;
+            slow-release;
         };
 
         layer_4_left {
             bindings = <&mo 4>;
             key-positions = <26 25>;
             layers = <0>;
+            slow-release;
         };
 
         layer_4_right {
             bindings = <&mo 4>;
             key-positions = <34 33>;
             layers = <0>;
+            slow-release;
         };
     };
 
