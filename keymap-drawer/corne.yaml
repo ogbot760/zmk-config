@@ -198,10 +198,10 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT 1, type: held}
-  - {t: BT 2, type: held}
-  - BT CLR
-  - BT CLR ALL
+  - BT 1
+  - BT 2
+  - {t: BT CLR, type: held}
+  - {t: BT CLR ALL, type: held}
   - '&soft_off'
   - '&soft_off'
   - ''
@@ -228,9 +228,9 @@ combos:
 - p: [19, 20]
   k: BACKSPACE
   l: [BAS]
-- p: [26, 25]
+- p: [28, 27]
   k: MSC
   l: [BAS]
-- p: [34, 33]
+- p: [31, 32]
   k: MSC
   l: [BAS]

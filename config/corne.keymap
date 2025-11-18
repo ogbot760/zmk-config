@@ -120,14 +120,14 @@
 
         layer_4_left {
             bindings = <&mo 4>;
-            key-positions = <26 25>;
+            key-positions = <28 27>;
             layers = <0>;
             slow-release;
         };
 
         layer_4_right {
             bindings = <&mo 4>;
-            key-positions = <34 33>;
+            key-positions = <31 32>;
             layers = <0>;
             slow-release;
         };
