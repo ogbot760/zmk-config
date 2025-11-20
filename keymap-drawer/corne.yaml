@@ -186,22 +186,22 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - BT 1
   - BT 2
-  - {t: BT CLR, type: held}
-  - {t: BT CLR ALL, type: held}
+  - BT CLR
+  - BT CLR ALL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
   - '&soft_off'
   - '&soft_off'
   - ''
