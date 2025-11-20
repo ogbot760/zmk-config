@@ -14,7 +14,7 @@ layers:
   - P
   - ''
   - ''
-  - {t: A, h: LWIN}
+  - {t: A, h: LEFT WIN}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT SHIFT}
@@ -23,7 +23,7 @@ layers:
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT CONTROL}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RWIN}
+  - {t: ;, h: RIGHT WIN}
   - ''
   - ''
   - Z
