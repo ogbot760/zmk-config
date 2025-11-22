@@ -105,7 +105,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
   - ''
-  - ''
+  - RIGHT CONTROL
   - UP ARROW
   - DOWN ARROW
   - LEFT ARROW
@@ -124,10 +124,10 @@ layers:
   - ''
   - ''
   - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - ''
   BLU:
   - ''

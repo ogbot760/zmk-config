@@ -193,10 +193,10 @@
 
         Movement_Layer {
             bindings = <
-&none  &none            &none           &mkp LCLK       &mkp RCLK     &none     &none   &kp HOME      &kp END         &none           &none            &none
-&none  &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &none     &none   &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &none
-&none  &msc SCRL_RIGHT  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &none     &none   &none         &none           &none           &none            &none
-                                        &none           &trans        &trans    &trans  &trans        &none
+&none  &none            &none           &mkp LCLK       &mkp RCLK     &none     &none              &kp HOME      &kp END         &none           &none            &none
+&none  &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &none     &kp RIGHT_CONTROL  &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &none
+&none  &msc SCRL_RIGHT  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &none     &none              &none         &none           &none           &none            &none
+                                        &none           &none         &trans    &trans             &none         &none
             >;
 
             label = "MVT";
