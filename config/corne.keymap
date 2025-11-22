@@ -187,7 +187,7 @@
 &none  &kp EXCL             &kp AT                  &kp HASH             &kp DLLR             &kp PRCNT            &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none  &none
 &none  &dbtap_reg_brackets  &dbtap_curley_brackets  &dbtap_sqr_brackets  &dbtap_reg_brackets  &kp PIPE             &none            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none  &none
 &none  &kp ASTERISK         &dbtap_minus_add        &kp AMPERSAND        &kp CARET            &db_Tap_f_b_slash    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none  &none
-                                                    &kp LEFT_SHIFT       &trans               &kp SPACE            &kp RET          &trans           &kp RIGHT_SHIFT
+                                                    &kp LEFT_SHIFT       &none                &kp SPACE            &kp RET          &none            &kp RIGHT_SHIFT
             >;
         };
 
