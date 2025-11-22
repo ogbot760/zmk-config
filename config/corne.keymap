@@ -184,7 +184,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL             &kp AT                  &kp HASH             &kp DLLR             &kp PRCNT            &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none  &none
+&none  &kp EXCL             &kp AT                  &kp HASH             &kp DLLR             &kp PRCNT            &kp KP_NUMLOCK   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none  &none
 &none  &dbtap_reg_brackets  &dbtap_curley_brackets  &dbtap_sqr_brackets  &dbtap_reg_brackets  &kp PIPE             &none            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none  &none
 &none  &kp ASTERISK         &dbtap_minus_add        &kp AMPERSAND        &kp CARET            &db_Tap_f_b_slash    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none  &none
                                                     &kp LEFT_SHIFT       &none                &kp SPACE            &kp RET          &none            &kp RIGHT_SHIFT
@@ -204,10 +204,10 @@
 
         Misc_Layer {
             bindings = <
-&none  &none         &none         &none       &none           &none        &none      &none   &none  &none  &none  &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR  &bt BT_CLR_ALL  &none        &none      &none   &none  &none  &none  &none
-&none  &none         &none         &none       &none           &soft_off    &soft_off  &none   &none  &none  &none  &none
-                                   &none       &trans          &none        &none      &trans  &none
+&none  &none         &none         &none       &none           &none        &none      &none  &none  &none  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR  &bt BT_CLR_ALL  &none        &none      &none  &none  &none  &none  &none
+&none  &none         &none         &none       &none           &soft_off    &soft_off  &none  &none  &none  &none  &none
+                                   &none       &none           &none        &none      &none  &none
             >;
 
             label = "BLU";

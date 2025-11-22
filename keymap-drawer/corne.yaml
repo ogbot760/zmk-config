@@ -50,7 +50,7 @@ layers:
   - '#'
   - $
   - '%'
-  - ''
+  - KP NUMLOCK
   - KP 7
   - KP 8
   - KP 9
