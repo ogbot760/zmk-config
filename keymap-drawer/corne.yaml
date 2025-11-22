@@ -39,8 +39,8 @@ layers:
   - ''
   - MVT
   - SYM
+  - ENTER
   - ␣
-  - ⏎
   - SYM
   - MVT
   SYM:
