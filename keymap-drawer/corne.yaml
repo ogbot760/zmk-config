@@ -35,10 +35,10 @@ layers:
   - M
   - ','
   - .
-  - /
+  - '&db_Tap_f_b_slash'
   - ''
   - MVT
-  - NUM
+  - SYM
   - ␣
   - ⏎
   - SYM
@@ -50,85 +50,42 @@ layers:
   - '#'
   - $
   - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
-  - (
-  - )
+  - ''
+  - KP 7
+  - KP 8
+  - KP 9
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - _
-  - +
-  - '{'
-  - '}'
+  - '&dbtap_reg_brackets'
+  - '&dbtap_curley_brackets'
+  - '&dbtap_sqr_brackets'
+  - '&dbtap_reg_brackets'
   - '|'
   - ''
-  - $$mdi:apple-keyboard-command$$
-  - {t: ▽, type: trans}
-  - ␣
-  - ⏎
-  - {type: held}
-  - RIGHT GUI
-  NUM:
+  - KP 4
+  - KP 5
+  - KP 6
   - ''
   - ''
   - ''
+  - '*'
+  - '&dbtap_minus_add'
+  - AMPERSAND
+  - ^
+  - '&db_Tap_f_b_slash'
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-command$$
+  - LEFT SHIFT
   - {type: held}
   - ␣
   - ⏎
   - {t: ▽, type: trans}
-  - RIGHT GUI
+  - RIGHT SHIFT
   MVT:
   - ''
   - ''
@@ -172,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  MSC:
+  BLU:
   - ''
   - ''
   - ''
@@ -200,8 +157,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - {type: held}
+  - ''
+  - ''
   - '&soft_off'
   - '&soft_off'
   - ''
@@ -210,10 +167,10 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
 combos:
 - p: [22, 21]
@@ -228,9 +185,6 @@ combos:
 - p: [19, 20]
   k: BACKSPACE
   l: [BAS]
-- p: [28, 27]
-  k: MSC
-  l: [BAS]
-- p: [31, 32]
-  k: MSC
+- p: [40, 37]
+  k: BLU
   l: [BAS]
