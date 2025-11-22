@@ -81,7 +81,7 @@
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <13 0 28 29 38 37 36 27 26 24 25 12 1 2 3 4 5 17 16 15 14>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             quick-tap-ms = <176>;
             require-prior-idle-ms = <150>;
         };
